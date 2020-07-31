@@ -12,3 +12,4 @@ with open(inputPath, "r") as input:
         for hobby in obj["hobbies"]:
             output.write(hobby + "\n")
 
+print("Written to Json file")
