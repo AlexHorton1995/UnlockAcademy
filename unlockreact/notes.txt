@@ -1,0 +1,50 @@
+Notes for React Tutorial
+(freecodecamp.org Learn React JS on youtube)
+
+Topics:
+Components = the core building block in react for making usable pieces of HTML.
+JSX - Propriatry wrapper
+Styling 
+Props
+State
+Event Handling
+Life cycle methods
+Fetches via API
+Forms
+And more!
+
+Know some basic Html, CSS, JS, ES6.
+
+2 - What we are going to build:
+    A To-Do List Application
+    A Meme Generator
+
+3.  Why React?
+    Speed vs Javascript. Uses the Virtual DOM
+    The Virtual DOM helps React work faster.
+    Gives the ability to make usable web Components
+
+    Reusable Web Components, and it is maintained by Facebook (whaaaaaaaaaa)
+
+    Hirable (you can learn stuff and get hired doing React as well)
+
+4.  ReactDOM and JSX.
+    Import statement
+
+5.  Practice - Fill in boiler plate React code required to render an unordered list to the page.  
+    The list should contain 3 list items with anything in them you want.  
+    Use the ReactDom.Render() method and render the unordered list.
+
+6.  Reusable Web Components - Created a function with the markup in it, and rendered the function in the ReactDOM.
+    note to self - make sure you have the open parenthesis on the same line as the return keyword, or you get errors.
+    Also make sure the close parenthesis follows the value from the return as well or it throws a warning.
+
+    a - Practice - 
+        1. Setup basic React Code from Scratch.
+        2. Create a functional component called MyInfo that returns the following UI:
+            a - H1 with my name
+            b - Paragraph with a blurb about myself
+            c - ordered or unordered list of the top 3 vacation spots to visit.
+        3.  Render an instance of that functional component to the browser.
+        Extra Credit
+            Put some style on the page with the CSS. 
