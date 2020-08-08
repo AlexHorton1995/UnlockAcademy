@@ -51,3 +51,13 @@ Know some basic Html, CSS, JS, ES6.
 
 8.  Moving Components into seperate files
     a - good practice to keep components in their own files.
+
+9.  Parent/Child Components
+    <app> can be the main element for the entire app, but then you can break down other elements
+    into their own components, such as:
+    <header> - with Navigation
+    <main> - main body
+    <footer> 
+
+    These all fall under the parent of APP
+    
