@@ -39,7 +39,7 @@ Know some basic Html, CSS, JS, ES6.
     note to self - make sure you have the open parenthesis on the same line as the return keyword, or you get errors.
     Also make sure the close parenthesis follows the value from the return as well or it throws a warning.
 
-    a - Practice - 
+7.  Functional Component Practice - 
         1. Setup basic React Code from Scratch.
         2. Create a functional component called MyInfo that returns the following UI:
             a - H1 with my name
@@ -48,3 +48,6 @@ Know some basic Html, CSS, JS, ES6.
         3.  Render an instance of that functional component to the browser.
         Extra Credit
             Put some style on the page with the CSS. 
+
+8.  Moving Components into seperate files
+    a - good practice to keep components in their own files.

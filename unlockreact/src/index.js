@@ -1,24 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import App from './App';
+//import './index.css';
+//import LocationInfo from './components/LocationInfo'; 
+//import VacationInfo from './components/VacationInfo'; //imports assume you are importing .js files 
 
-function MyInfo() {
-  return (
-    <div>
-      <p></p>
-      <h1>Alex Horton</h1>
-      <p>
-        <p>Top Three Vacation Spots to Visit are</p>
-        <ol>
-          <li>Hawaii</li>
-          <li>Japan</li>
-          <li>France</li>
-        </ol>
-      </p>
-    </div>)
-}
+
 
 ReactDOM.render( 
-  <MyInfo />
+  <App />
   , document.getElementById("root")
 )
